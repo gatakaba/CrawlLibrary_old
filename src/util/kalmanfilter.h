@@ -49,8 +49,7 @@ class KalmanFilter {
 * @param D 出力行列 (A * B * C)
 * @return なし
 */
-  void multiply3(float* A, float* B, float* C, int m, int p, int r, int n,
-                 float* D);
+  void multiply3(float* A, float* B, float* C, int m, int p, int r, int n, float* D);
   /**
 * @brief 転置行列を計算する
 * @param A 入力行列
